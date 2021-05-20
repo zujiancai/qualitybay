@@ -1,16 +1,17 @@
-title:              Quality Bay
-email:              your-email@example.com
-description:        Quality Bay Construction LLC
-author:             Zack Cai
+title:              Quality Bay Construction LLC
+email:              leochen417@gmail.com
+description:        Reliable & High Quality Remodeling & Roofing Service In Greater Seattle Area
+sub_description:    Our professional team delivers efficient work with high quality and competitive pricing. Your satisfaction is our top priority.
+author:             Leo Chen
 baseurl:            "/qualitybay"
 url:                "https://zujiancai.github.io"
 
 # Social Profiles
 twitter_username:   
-github_username:    zujiancai
-facebook_username:  
+github_username:
+facebook_username:  elaine.y.teng
 instagram_username:  
-linkedin_username:
+linkedin_username:  yan-teng-187a6583
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code

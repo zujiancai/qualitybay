@@ -3,8 +3,8 @@ email:              leochen417@gmail.com
 description:        Quality Remodeling and Roofing Services in Greater Seattle Area
 sub_description:    Trustworthy professionals, committed to customer satisfaction, high quality work with low cost.
 author:             Leo Chen
-baseurl:            "/qualitybay"
-url:                "https://zujiancai.github.io"
+baseurl:            "/"
+url:                "https://qualitybayconstruction.com"
 
 # Social Profiles
 twitter_username:   

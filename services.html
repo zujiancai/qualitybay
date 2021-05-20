@@ -3,18 +3,24 @@ layout: page
 title: Our Services
 description: As your trusted service provider, we are committed to transform your home or workplace to what you've been dreaming of.
 background: '/img/bg-services.jpg'
+remodeling_items:
+    - Full-House Remodeling
+    - Kitchen
+    - Bathroom
+    - Flooring
+    - Tiling and Painting
+    - Additions
 ---
 
 <div class="row">
     <div class="col-md-6">
         <div class="card">
-            <img class="card-img-top" src="/img/remodeling.jpg" alt="Remodeling image">
+            <img class="card-img-top" src={% link /img/remodeling.jpg %} alt="Remodeling image">
             <div class="card-body">
               <h5 class="card-title">Renovation and Remodeling</h5>
               <p class="card-text">Need to give a contemporary touch on your home or update it to a more comfortable and stylished one? We are here to help.</p>
               <div class="row">
-                {% assign items = ['Full-House Remodeling', 'Kitchen', 'Bathroom', 'Flooring', 'Tiling and Painting', 'Additions'] %}
-                {% for item in items %}
+                {% for item in page.remodeling_items %}
                 <div class="col-md-6"><span style="color: seagreen;"><i class="fas fa-check-circle"></i></span> {{ item }}</div>
                 {% endfor %}
               </div>

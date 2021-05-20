@@ -8,12 +8,13 @@ background: '/img/bg-services.jpg'
 <div class="row">
     <div class="col-md-6">
         <div class="card">
-            <img class="card-img-top" src="/image/remodeling.jpg" alt="Remodeling image">
+            <img class="card-img-top" src="/img/remodeling.jpg" alt="Remodeling image">
             <div class="card-body">
               <h5 class="card-title">Renovation and Remodeling</h5>
               <p class="card-text">Need to give a contemporary touch on your home or update it to a more comfortable and stylished one? We are here to help.</p>
               <div class="row">
-                {% for item in ['Full-House Remodeling', 'Kitchen', 'Bathroom', 'Flooring', 'Tiling and Painting', 'Additions'] %}
+                {% assign items = ['Full-House Remodeling', 'Kitchen', 'Bathroom', 'Flooring', 'Tiling and Painting', 'Additions'] %}
+                {% for item in items %}
                 <div class="col-md-6"><span style="color: seagreen;"><i class="fas fa-check-circle"></i></span> {{ item }}</div>
                 {% endfor %}
               </div>
@@ -22,7 +23,7 @@ background: '/img/bg-services.jpg'
     </div>
     <div class="col-md-6">
         <div class="card">
-            <img class="card-img-top" src="/image/backyard.jpg" alt="Landscaping image">
+            <img class="card-img-top" src="/img/backyard.jpg" alt="Landscaping image">
             <div class="card-body">
               <h5 class="card-title">Landscaping</h5>
               <p class="card-text">Your yard is also a special place for you and your beloved family. So, creating a stylish and organized yard is always worth trying.</p>
@@ -36,7 +37,7 @@ background: '/img/bg-services.jpg'
     </div>
     <div class="col-md-6">
         <div class="card">
-            <img class="card-img-top" src="/image/roofing.jpg" alt="Roofing image">
+            <img class="card-img-top" src="/img/roofing.jpg" alt="Roofing image">
             <div class="card-body">
               <h5 class="card-title">Residential Roofing</h5>
               <p class="card-text">Fixing up the roof to be ready for selling your house, or just upkeeping a beautiful and reliable roof for yourself, we are the guys you can rely on.</p>
@@ -50,7 +51,7 @@ background: '/img/bg-services.jpg'
     </div>
     <div class="col-md-6">
         <div class="card">
-            <img class="card-img-top" src="/image/home-services.jpg" alt="Other home services image">
+            <img class="card-img-top" src="/img/home-services.jpg" alt="Other home services image">
             <div class="card-body">
               <h5 class="card-title">Other Home Services</h5>
               <div class="row">

@@ -7,8 +7,8 @@ background: '/img/posts/bathroom_02.jpg'
 
 We installed marble tiles for entire bathroom and more. Check out the completed work with a luxury feel.
 
-![bath tub 1]({% link img/posts/bathroom_03.jpg %} =600x)
+<img src="{% link img/posts/bathroom_03.jpg %}" alt="bath tub 1" width="600"/>
 
-![bath tub 2]({% link img/posts/bathroom_04.jpg %} =600x)
+<img src="{% link img/posts/bathroom_04.jpg %}" alt="bath tub 2" width="600"/>
 
-![wash counter]({% link img/posts/bathroom_01.jpg %} =600x)
+<img src="{% link img/posts/bathroom_01.jpg %}" alt="washing counter" width="600"/>
